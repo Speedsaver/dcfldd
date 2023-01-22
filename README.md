@@ -46,15 +46,24 @@ Nowadays, dcfldd is maintained by volunteers.
 ## Build and Install ##
 
 To build and install, run the following commands:
+```
+git clone https://github.com/Speedsaver/dcfldd.git && cd dcfldd
+```
+```
+./autogen.sh
+```
+```
+./configure
+```
+```
+make
+```
+```
+make install
+```
+To return to original source code you can use ```make distclean``` command.
 
-    $ ./autogen.sh
-    $ ./configure
-    $ make
-    # make install
-
-To return to original source code you can use '$ make distclean' command.
-
-On Debian systems you can use '# apt install dcfldd'.
+On Debian systems you can use ```apt install dcfldd```
 
 There is a bash completion file inside doc/ directory in source code.
 
